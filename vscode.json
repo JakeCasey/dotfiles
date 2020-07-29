@@ -1,0 +1,46 @@
+{
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 20,
+  "editor.letterSpacing": 0.25,
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["Z", "Z"],
+      "commands": [":wq"]
+    }
+  ],
+  "emmet.showExpandedAbbreviation": "never",
+  "search.exclude": {
+    "**/.next": true
+  },
+  "workbench.startupEditor": "welcomePage",
+  "workbench.activityBar.visible": false,
+  "workbench.editor.labelFormat": "medium",
+  "window.title": "${activeEditorLong}",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "window.zoomLevel": 1,
+  "breadcrumbs.enabled": true,
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "terminal.integrated.rendererType": "dom",
+  "workbench.colorTheme": "Cobalt2",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.matchBrackets": "false",
+  "html.mirrorCursorOnMatchingTag": false,
+  "prettier.singleQuote": true,
+  "prettier.stylelintIntegration": true,
+  "prettier.trailingComma": "es5",
+  "prettier.arrowParens": "always",
+  "editor.formatOnSave": true,
+  "editor.acceptSuggestionOnCommitCharacter": false
+}
